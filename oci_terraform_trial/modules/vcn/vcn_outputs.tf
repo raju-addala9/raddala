@@ -1,0 +1,13 @@
+# Output variables from created vcn
+
+output "subnet1_ocid" {
+  value = "${oci_core_subnet.subnet_ad1.id}"
+}
+
+output "subnet2_ocid" {
+  value = "${oci_core_subnet.subnet_ad2.vcn_id}"
+}
+
+output "vcn_id" {
+  value = "${oci_core_subnet.subnet_ad2.id}"
+}
