@@ -1,0 +1,7 @@
+. aierpdev_raddala_env.sh (make sure to change User_ocid, Fingerprint and location of keys )
+. ~/proxy.sh (script to set proxy)
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
